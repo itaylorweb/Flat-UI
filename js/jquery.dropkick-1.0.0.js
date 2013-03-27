@@ -259,6 +259,7 @@
 
     $select = data.$select;
     $select.val(value);
+    $select.change();
 
     $dk.find('.dk_label').text(label);
 
