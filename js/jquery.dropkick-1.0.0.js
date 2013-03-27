@@ -372,13 +372,6 @@
       return false;
     });
 
-    // Close dropdown when clicked outside
-    $(document).on('click', function (e) {
-        $('.dk_container').each(function () {
-            $(this).removeClass('dk_open');
-        });
-    });
-    
     // Setup keyboard nav
     $(document).bind('keydown.dk_nav', function (e) {
       var
